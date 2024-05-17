@@ -1,0 +1,84 @@
+/* Styles for the ATM container */
+.atm-container {
+    width: 400px;
+    margin: 100px auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text content */
+}
+
+/* Styles for the title */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+
+}
+
+/* Styles for the select container */
+.select-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Center the select container horizontally */
+}
+
+/* Styles for the label */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Styles for the select dropdown */
+#mode-select {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Styles for the input container */
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center the input container horizontally */
+}
+
+/* Styles for the number input */
+#number-input {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for the submit button */
+#submit-input {
+    width: 100px; /* Adjust width as needed */
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    opacity: 1; /* Default opacity */
+}
+
+/* Adjust opacity when balance is zero */
+#submit-input[disabled] {
+    opacity: 0.5; /* Reduced opacity when balance is zero */
+}
+
+/* Hover effect for the submit button */
+#submit-input:hover:not([disabled]) {
+    background-color: #0056b3;
+}
+
+/* Hover effect for the submit button */
+#submit-input:hover {
+    background-color: #0056b3;
+}
