@@ -1,4 +1,5 @@
 ATM Exercise
+
 Welcome to the ATM Exercise! This project is a simple React application that simulates an Automated Teller Machine (ATM). It allows users to deposit money into their account or withdraw cash from it.
 
 Features
